@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: "core-deployment"
-  namespace: "prd-eks-useast1"
+  namespace: "stg-eks-euwest1"
 spec:
   replicas: 2
   selector:

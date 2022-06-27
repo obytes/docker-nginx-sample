@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: "core-service"
-  namespace: "prd-eks-useast1"
+  namespace: "stg-eks-euwest1"
   annotations:
     alb.ingress.kubernetes.io/target-type: ip
 spec:
