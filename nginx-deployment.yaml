@@ -17,11 +17,11 @@ spec:
       - image: nginx
         resources:
           requests:
-            memory: "2Gi"
-            cpu: "1024m"
+            memory: "0.5Gi"
+            cpu: "256m"
           limits:
-            memory: "2Gi"
-            cpu: "1024m"
+            memory: "0.5Gi"
+            cpu: "256m"
         imagePullPolicy: Always
         name: "core"
         ports:
